@@ -6,5 +6,9 @@
 
     if ($num01 > $num02 && $num01 > $num03):
         echo "O primeiro número, $num01, é o maior";
+    elseif ($num02 > $num01 && $num02 > $num03):
+        echo "O segundo número, $num02, é o maior";
+    else:
+        echo "O terceiro número, $num03, é o maior";
     endif;
 ?>
