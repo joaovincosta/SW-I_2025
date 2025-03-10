@@ -6,6 +6,25 @@
     <title>Exercício 2 - POST</title>
 </head>
 <body>
-    
+    <form action="form02.php" method="post">
+        <label>Olá! Para continuar, informe...</label>
+        <br>
+        <label>Seu nome: <input type="name" name="name" id="" required name="name"> </label>
+        <br>
+        <label>Seu e-mail: <input type="email" name="e-mail" id="" required name="e-mail"> </label>
+        <br>
+        <label>Sua data de nascimento: <input type="date" name="date" id="" required name="date"> </label>
+        <br>
+        <label>A bandeira do seu cartão de crédito 
+            <select name="cartao">
+                <option value="Mastercard"> Mastercard </option>
+                <option value="Visa"> Visa </option>
+                <option value="Elo"> Elo</option>
+                <option value="Hipercard">Hipercard</option>
+                <option value="American Express">American Express</option>
+            </select>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
