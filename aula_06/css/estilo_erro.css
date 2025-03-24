@@ -1,24 +1,28 @@
 .custom-bg {
-    background: linear-gradient(to right, #e2e8f0, #e5e7eb);
+    background-color: #dc3545 !important; 
+    color: white !important;
+}
+
+.custom-btn {
+    background-color: white !important;
+    color: #dc3545 !important;
 }
 
 .custom-btn:hover {
-    background-color: #f3e8ff !important;
-    transition: background-color 0.3s ease-in-out;
+    background-color: #f8d7da !important;
 }
 
 @media (prefers-color-scheme: dark) {
     .custom-bg {
-        background: linear-gradient(to right, #d13b11, #b9790c);
-        color: white !important;
+        background-color: #b22222 !important; 
     }
 
     .custom-btn {
-        background-color: #374151 !important;
-        color: white !important;
+        background-color: white !important;
+        color: #dc3545 !important;
     }
 
     .custom-btn:hover {
-        background-color: #4b5563 !important;
+        background-color: #f8d7da !important;
     }
 }

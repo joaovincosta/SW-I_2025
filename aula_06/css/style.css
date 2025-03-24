@@ -1,7 +1,13 @@
-body{
-    background-color: yellow;
+body {
+    background-color: yellow !important;
 }
 
-h1, .btn{
-    text-align: center;
+.custom-btn {
+    background-color: #fd7e14 !important; /* Laranja Bootstrap */
+    color: white !important;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #e46c0a !important; /* Laranja mais escuro */
 }
