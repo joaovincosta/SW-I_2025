@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
     .custom-bg {
-        background: linear-gradient(to right, #1f2937, #111827);
+        background: linear-gradient(to right, #d13b11, #b9790c);
         color: white !important;
     }
 

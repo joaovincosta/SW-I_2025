@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
+    <link href="css/style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
         <form action="processa.php" method="POST">
             <br>
+            <h1>Olá! Faça login</h1>
             <!-- Email input -->
             <div data-mdb-input-init class="form-outline mb-4">
-                <input type="email" id="form2Example1" class="form-control" name="email"/>
                 <label class="form-label" for="form2Example1">Endereço de Email</label>
+                <input type="email" id="form2Example1" class="form-control" name="email"/>
             </div>
 
             <!-- Password input -->
             <div data-mdb-input-init class="form-outline mb-4">
-                <input type="password" id="form2Example2" class="form-control" name="senha"/>
                 <label class="form-label" for="form2Example2">Senha</label>
+                <input type="password" id="form2Example2" class="form-control" name="senha"/>
             </div>
 
             <!-- Submit button -->
