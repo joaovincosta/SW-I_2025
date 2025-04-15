@@ -6,7 +6,7 @@
     <title>Exercício 04 - Avaliação de SW1 do 1º Bimestre</title>
 </head>
 <body>
-    <h2>Olá!</h2>
+    <h2>Olá, de novo!</h2>
     <?php
         $multiplode3 = [];
 
